@@ -13,6 +13,7 @@ All figures below are recalculated from the repository CSV (`data/HR_Analytics_E
 ## Department comparison
 
 | Department | Employees | Leavers | Attrition rate |
+|---|---:|---:|---:|
 | Finance | 161 | 34 | 21.12% |
 | Human Resources | 158 | 26 | 16.46% |
 | IT | 277 | 47 | 16.97% |
@@ -52,7 +53,7 @@ The overtime group has a higher observed attrition rate (31.84%) than the non-ov
 | 3 | Medium | 503 | 102 | 20.28% |
 | 4 | High | 469 | 60 | 12.79% |
 
-The lowest satisfaction rating has an observed attrition rate of 2495.13%; the highest rating has 1279.32%.
+The lowest satisfaction rating has an observed attrition rate of 24.95%; the highest rating has 12.79%.
 
 ## Salary
 
