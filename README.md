@@ -23,9 +23,9 @@
 
 | 01 · HR Overview | 02 · Employee Demographics |
 |:---:|:---:|
-| ![HR Overview](assets/dashboard-screenshots/page-1.png) | ![Employee Demographics](assets/dashboard-screenshots/page-2.png) |
+| ![HR Overview](assets/dashboard-screenshots/page-1.jpg) | ![Employee Demographics](assets/dashboard-screenshots/page-2.jpg) |
 | 03 · Salary & Job Analysis | 04 · Attrition Factors |
-| ![Salary and Job Analysis](assets/dashboard-screenshots/page-3.png) | ![Attrition Factors](assets/dashboard-screenshots/page-4.png) |
+| ![Salary and Job Analysis](assets/dashboard-screenshots/page-3.jpg) | ![Attrition Factors](assets/dashboard-screenshots/page-4.jpg) |
 
 📄 **[View the complete 4-page dashboard PDF](assets/HR_Analytics_Project.pdf)**  
 💻 **[Open the Power BI file](powerbi/HR_Analytics_Project.pbix)**  
