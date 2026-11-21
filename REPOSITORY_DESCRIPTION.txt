@@ -1,0 +1,1 @@
+Interactive Power BI HR analytics project exploring employee attrition, workforce demographics, salary patterns, and attrition factors.

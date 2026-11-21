@@ -1,0 +1,16 @@
+# Power BI / Office temporary files
+*.tmp
+*.bak
+~$*
+*.pbix.autosave
+*.pbit.autosave
+
+# Windows / macOS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor / environment
+.vscode/
+.idea/
+.env
