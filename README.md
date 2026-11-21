@@ -1,75 +1,107 @@
-# HR Analytics: Employee Attrition
+<div align="center">
 
-An end-to-end **Power BI HR analytics project** exploring workforce composition, employee attrition, salary patterns, and factors associated with employee exits.
+# 📊 HR Analytics | Employee Attrition
 
-The report is organized into four interactive dashboard pages: **HR Overview**, **Employee Demographics**, **Salary & Job Analysis**, and **Attrition Factors Analysis**.
+### An interactive Power BI project exploring workforce composition, employee exits, salary patterns, and factors associated with attrition.
 
-![HR Overview dashboard](assets/dashboard-screenshots/page-1.png)
+<p>
+  <img src="https://img.shields.io/badge/Power%20BI-Dashboard-F2C811?style=for-the-badge&logo=powerbi&logoColor=111111" alt="Power BI">
+  <img src="https://img.shields.io/badge/Excel-Data%20Analysis-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white" alt="Excel">
+  <img src="https://img.shields.io/badge/CSV-Dataset-4B8BBE?style=for-the-badge&logo=files&logoColor=white" alt="CSV">
+  <img src="https://img.shields.io/badge/DAX-Measures-7B61A8?style=for-the-badge" alt="DAX">
+</p>
 
-## Project at a glance
+**📌 Portfolio Project** &nbsp; | &nbsp; **📍 HR Analytics** &nbsp; | &nbsp; **📈 4 Interactive Report Pages**
 
-| Metric | Result |
+</div>
+
+---
+
+## 👀 Project Preview
+
+> Explore the four-page Power BI report covering HR overview, employee demographics, salary and job analysis, and attrition factors.
+
+| 01 · HR Overview | 02 · Employee Demographics |
+|:---:|:---:|
+| ![HR Overview](assets/dashboard-screenshots/page-1.png) | ![Employee Demographics](assets/dashboard-screenshots/page-2.png) |
+| 03 · Salary & Job Analysis | 04 · Attrition Factors |
+| ![Salary and Job Analysis](assets/dashboard-screenshots/page-3.png) | ![Attrition Factors](assets/dashboard-screenshots/page-4.png) |
+
+📄 **[View the complete 4-page dashboard PDF](assets/HR_Analytics_Project.pdf)**  
+💻 **[Open the Power BI file](powerbi/HR_Analytics_Project.pbix)**  
+🗂️ **[Explore the dataset](data/HR_Analytics_Employee_Attrition_Dataset.csv)**
+
+---
+
+## 🎯 Business Problem
+
+Employee attrition can affect workforce stability, hiring costs, team continuity, and organizational knowledge. This project uses an employee-level dataset to explore:
+
+- How many employees are in the workforce, and how many have left?
+- Which departments and job roles show higher observed attrition?
+- How does attrition vary across tenure groups and demographic categories?
+- How do salary bands, overtime, and satisfaction ratings relate to attrition patterns?
+
+The goal is to turn the dataset into an interactive report that supports clear, evidence-based questions for further HR investigation.
+
+## 📌 Key Metrics
+
+| KPI | Dataset result |
 |---|---:|
-| Employees in dataset | 2,000 |
-| Employees who left | 383 |
-| Active employees | 1,617 |
-| Overall attrition rate | 19.15% |
-| Retention rate | 80.85% |
-| Average monthly salary | ₹65,682 |
-| Average tenure | 3.49 years |
+| 👥 Total employees | **2,000** |
+| 🚪 Attrition count | **383** |
+| 🟢 Active employees | **1,617** |
+| 📉 Attrition rate | **19.15%** |
+| 🔁 Retention rate | **80.85%** |
+| 💰 Average monthly salary | **₹65,682** |
+| 🗓️ Average tenure | **3.49 years** |
 
-> **Dataset note:** The attached dataset is a sample/synthetic employee dataset for portfolio and learning purposes. It does not represent a real employer or real employee records. Findings are descriptive and should not be interpreted as causal.
+<sub>Values above are calculated from the full CSV with no slicers applied. They may change when report filters are selected.</sub>
 
-## Dashboard pages
+## 🔎 Key Findings
 
-### 1. HR Overview
-Workforce KPIs, department-wise attrition rate, employee distribution by department and gender, age distribution, and attrition by tenure group.
+The following are descriptive findings calculated from the included CSV:
 
-![Page 1: HR Overview](assets/dashboard-screenshots/page-1.png)
+- **Department variation:** Finance has the highest observed attrition rate at **21.12%** among departments in this dataset.
+- **Overtime comparison:** The attrition rate is **31.84%** for employees marked `Yes` for overtime and **14.49%** for employees marked `No`.
+- **Job satisfaction:** The attrition rate is **24.95%** for satisfaction rating 1 and **12.79%** for rating 4.
+- **Early-tenure exits:** **259** employees who left had been at the company for three years or less. This represents **67.62%** of all leavers.
 
-### 2. Employee Demographics
-Employee distribution by gender, age group, marital status, and department, plus gender-wise employee and attrition counts.
+⚠️ **Interpretation:** These are associations and group comparisons. They do not prove that overtime, satisfaction, department, or tenure caused employees to leave.
 
-![Page 2: Employee Demographics](assets/dashboard-screenshots/page-2.png)
+## 🧭 Dashboard Walkthrough
 
-### 3. Salary & Job Analysis
-Salary distribution, average salary by department, top job roles by attrition count, average salary by attrition status, and employee attrition by salary band.
+### 1️⃣ HR Overview
+A high-level view of employee headcount, attrition, active employees, attrition rate, average salary, department-level attrition, workforce distribution, age groups, and tenure patterns.
 
-![Page 3: Salary & Job Analysis](assets/dashboard-screenshots/page-3.png)
+### 2️⃣ Employee Demographics
+Explores the employee mix by gender, age group, marital status, and department, with a comparison of employee counts and attrition across gender categories.
 
-### 4. Attrition Factors Analysis
-Attrition by education, tenure group, work-life balance, job satisfaction, overtime, and environment satisfaction.
+### 3️⃣ Salary & Job Analysis
+Examines salary distribution, average salary by department, job roles with the highest attrition counts, salary by attrition status, and attrition across salary bands.
 
-![Page 4: Attrition Factors Analysis](assets/dashboard-screenshots/page-4.png)
+### 4️⃣ Attrition Factors Analysis
+Compares attrition across education, tenure, work-life balance, job satisfaction, overtime, and environment satisfaction.
 
-## Key findings from the CSV
+## 🛠️ Tools & Skills
 
-These values are recalculated directly from the CSV included in this repository, with no report slicers applied.
+| Tool / Concept | How it is used |
+|---|---|
+| **Power BI Desktop** | Report design, visuals, slicers, and interactions |
+| **Power Query** | Data import, inspection, and preparation |
+| **DAX** | Measures, calculated columns, KPI calculations |
+| **Data visualization** | KPI cards, bar charts, column charts, donut charts, 100% stacked bars |
+| **Data analysis** | Group comparisons, distributions, and descriptive insights |
+| **GitHub** | Versioned project presentation and documentation |
 
-- **Overall attrition:** 383 of 2,000 employees left, an attrition rate of 19.15%.
-- **Department:** Finance has the highest department attrition rate at 21.12%; Human Resources is lowest at 16.46%.
-- **Tenure:** Employees with less than one year at the company have a 30.48% attrition rate. The rate is 23.07% for 1–2 years.
-- **Overtime:** Attrition is 31.84% among employees marked for overtime versus 14.49% among those not marked for overtime.
-- **Job satisfaction:** The attrition rate is 24.95% for rating 1 and 12.79% for rating 4.
-- **Early exits:** 259 leavers had tenure of three years or less. That is 67.62% of leavers, or 12.95% of the full dataset.
-
-Interpretation requires care: these are associations in this sample. They do not establish that department, tenure, overtime, or satisfaction caused an employee to leave.
-
-## Tools and techniques
-
-- Microsoft Power BI Desktop
-- Power Query for data inspection and preparation
-- DAX measures and calculated columns
-- Interactive slicers and cross-filtering
-- KPI cards, column charts, bar charts, donut charts, and 100% stacked bar charts
-- CSV data source
-
-## Repository structure
+## 🗃️ Repository Structure
 
 ```text
 HR-Employee-Attrition-Analytics/
+│
 ├── README.md
 ├── .gitignore
+│
 ├── assets/
 │   ├── HR_Analytics_Project.pdf
 │   └── dashboard-screenshots/
@@ -77,49 +109,55 @@ HR-Employee-Attrition-Analytics/
 │       ├── page-2.png
 │       ├── page-3.png
 │       └── page-4.png
+│
 ├── data/
 │   └── HR_Analytics_Employee_Attrition_Dataset.csv
+│
 ├── docs/
 │   ├── data-dictionary.md
 │   ├── insights-and-findings.md
 │   ├── methodology.md
 │   └── quality-checks.md
+│
 └── powerbi/
     └── HR_Analytics_Project.pbix
 ```
 
-## How to use the project
+## 🚀 How to Open the Project
 
-1. Download or clone this repository.
-2. Open `powerbi/HR_Analytics_Project.pbix` in Power BI Desktop.
-3. If Power BI asks for the source CSV location, point it to `data/HR_Analytics_Employee_Attrition_Dataset.csv` and apply the changes.
-4. Use the page tabs and slicers to explore the report.
-5. Refer to `assets/HR_Analytics_Project.pdf` for a static four-page report preview.
+1. Clone or download this repository.
+2. Open `powerbi/HR_Analytics_Project.pbix` using **Power BI Desktop**.
+3. If Power BI asks for the CSV source location, browse to `data/HR_Analytics_Employee_Attrition_Dataset.csv`.
+4. Select **Apply changes** if prompted.
+5. Use the report tabs and slicers to explore the dashboard.
 
-## Data and metric definitions
+## 📚 Project Documentation
 
-- **Attrition count:** Distinct employees whose `Attrition` value is `Yes`.
-- **Attrition rate:** Attrition count divided by total employees in the current filter context.
-- **Active employees:** Distinct employees whose `Attrition` value is `No`.
-- **Retention rate:** Active employees divided by total employees in the current filter context.
-- **Average salary:** Average `Monthly_Income_INR` in the current filter context.
-- **Early exits (≤3 years):** Leavers whose `Years_At_Company` is less than or equal to 3.
+- 📖 [Data Dictionary](docs/data-dictionary.md) – field names, meanings, and categories.
+- 🧪 [Methodology](docs/methodology.md) – project workflow and metric definitions.
+- 💡 [Insights & Findings](docs/insights-and-findings.md) – dataset-based observations.
+- ✅ [Quality Checks](docs/quality-checks.md) – validation checks and publication notes.
 
-For the full field descriptions and validation notes, see the `docs/` folder.
+## ⚠️ Data Disclaimer & Limitations
 
-## Limitations
+- The dataset is a **sample/synthetic portfolio dataset** and does not represent a real employer or actual employee records.
+- The report is intended for learning and portfolio demonstration, not real employment decisions.
+- Dashboard values respond to slicers; README metrics show the unfiltered dataset.
+- Group differences are descriptive and should not be interpreted as causal relationships.
+- Salary is recorded as **monthly income in INR**, not annual compensation.
 
-- The dataset is a sample/synthetic dataset and may contain deliberately generated patterns.
-- Dashboard metrics change when slicers are applied. The figures in this README are full-dataset values.
-- Correlation or group differences should not be described as causal effects.
-- The current PDF contains four dashboard pages. The executive insights page is not included in that PDF.
-
-## Author
+## 👨‍💻 Author
 
 **Hartik Manoj Bhati**  
 B.Tech Computer Science & Engineering (Cyber Security)  
-Portfolio project: HR Analytics – Employee Attrition
+Interested in Data Analytics, Business Intelligence, and data-driven problem solving.
 
 ---
 
-If you use this project as a portfolio example, be prepared to explain the business question, the data preparation, the DAX measures, the visual choices, and the limits of the findings.
+<div align="center">
+
+### ⭐ If you find this project useful, consider giving the repository a star.
+
+**Built with Power BI · DAX · Power Query · GitHub**
+
+</div>
